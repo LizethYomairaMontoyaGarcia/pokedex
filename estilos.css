@@ -3,9 +3,7 @@ body {
     font-size: 25px;
     font-family: Courier;
     border: 1px;
-
-    
-
+    display:contents;
 }
 
 .pop {
@@ -14,10 +12,10 @@ body {
     padding: 5px;
     margin: 5px;
     float: left;
-    width: 200px
-}
+    width: 200px;
+    text-align: center;
 
-
+ }
 .foto2 {
     padding: 10px;
     margin: 10px;
@@ -37,6 +35,7 @@ body {
 
 .footer {
     background-color: rgb(95, 149, 118);
+
 }
 
 .im {
@@ -46,4 +45,25 @@ body {
     margin: 10px;
     float: left;
     width: 1220px;
+}
+
+.table_style {
+    display: flex;
+    border: 1px solid black;
+    width: 350;
+    height: 350;
+    opacity: 10;
+   
+}
+
+.clock {
+    padding-top: 50px;
+    margin: 12rem;
+    height: 20rem;
+    display: flex;
+    align-items: center;
+}
+
+main{
+    padding: 0%;
 }
