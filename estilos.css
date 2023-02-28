@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(184, 222, 222);
+    font-size: 25px;
+    font-family: Courier;
+    border: 1px;
+
+    
+
+}
+
+.pop {
+    background-color: rgb(95, 149, 118);
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    margin: 5px;
+    float: left;
+    width: 200px
+}
+
+
+.foto2 {
+    padding: 10px;
+    margin: 10px;
+    float: left;
+    width: 500px;
+    text-align: center;
+    justify-content: center;
+}
+
+.foto1 {
+    padding: 10px;
+    margin: 10px;
+    float: left;
+    width: 300px;
+    text-align: center;
+}
+
+.footer {
+    background-color: rgb(95, 149, 118);
+}
+
+.im {
+    background-color: rgb(95, 149, 118);
+    color: rgb(8, 8, 8);
+    padding: 10px;
+    margin: 10px;
+    float: left;
+    width: 1220px;
+}
+
