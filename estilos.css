@@ -2,45 +2,42 @@ body {
     background-color: rgb(97, 114, 114);
     font-size: 25px;
     font-family: Courier;
-    width: 150px;
-    height: 150px;
     display: grid;
 }
 
 .im {
     background-color: rgb(95, 149, 118);
     color: rgb(255, 255, 255);
-    margin: 10px;
+    margin: 0px;
     float: none;
     width: -webkit-fill-available;
     display: -webkit-inline-box;
     font-size: large;
+    
 }
 
 .clock {
-    padding-top: 50px;
-    margin: 12rem;
-    height: 3rem;
+    padding-top: 0px;
+    margin: 9rem;
+    
+    height: 10rem;
     display: flex;
     align-items: center;
 }
 
 .pop {
-    background-color: rgb(95, 149, 118);
+    display: flex;
+    background-color: rgb(109, 95, 149);
     color: rgb(255, 255, 255);
-    margin: auto;
-    float: none;
     justify-content: center;
     align-items: center;
-    display: block;
-    margin-block-start: 3em;
-    margin-inline-end: 50px;
+    margin-block-start: 0em;
+    margin-inline-end: 0px;
 }
 
 .charizard {
-    height: 150px;
-    overflow-x: hidden;
-    overflow-y: inherit;
+    width: 390px;
+    padding-right: 20px;
 }
 
 .table_style {
@@ -57,28 +54,29 @@ footer {
     display: flex;
     background-color: rgb(95, 149, 118);
     width: -webkit-fill-available;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
-
+    margin-top: -15px;
 }
 
 .others {
+    border-radius: 20px;
     width: 200px;
     height: 70px;
-    border: 1px solid rgb(252, 253, 249);
     padding: 10px;
     margin: 5px;
     float: left;
     text-align: center;
     justify-content: center;
     font-size: 50px;
+    background: linear-gradient(to left, gray, pink);
 }
 
 .foto1 {
+    background: linear-gradient(to left, gray, pink);
     border-radius: 20px;
     width: 150px;
     height: 70px;
-    border: 1px solid rgb(252, 253, 249);
     padding: 10px;
     margin: 5px;
     float: left;
@@ -88,13 +86,14 @@ footer {
 }
 
 .foto1:hover {
-    background-color: aliceblue;
+    background: linear-gradient(to right, blue, pink);
     width: 180px;
     height: 90px;
     
 }
 .others:hover{
     background-color: aliceblue;
+    background: linear-gradient(to right, blue, pink);
 }
     
 .pokemon{
@@ -104,4 +103,5 @@ footer {
 }
 .pokemon:hover{
     width: 80px
+
 }
